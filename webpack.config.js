@@ -15,7 +15,7 @@ var config = {
   output: {
     path: BUILD_DIR,
     filename: 'index.js',
-	publicPath: '/dist/'
+	publicPath: 'dist/'
   },
   devtool: debug ? "inline-sourcemap" : null,
   
